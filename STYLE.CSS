@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    display: inline-block;
+    color: aliceblue;
+    font-size: larger;
+    font-family: sans-serif;
+    margin-right: 25px;
+    padding: 15px 10px;
+  
+}
+ul{
+    position: absolute;
+    right: 10px;
+   
+}
+
+.Heading-container1{
+    background-image: url(../PICTURE/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.Heading-container2{
+    backdrop-filter: blur(20px);
+    padding: 30px;
+    border-radius: 30px; 
+    box-shadow: 2px 2px 5px black;
+    width: 30%; 
+    border: 1px solid white;
+    color: aliceblue;
+    font-family: sans-serif;
+    position: absolute;
+    bottom: 17%;
+    left: 35%;
+
+    
+}
+.button1{
+    background-color: #ffffff; 
+      color: rgb(12, 6, 6);             
+      padding: 12px 32px;         
+      font-size: 25px;            
+      border: none;               
+      cursor: pointer;            
+      border-radius: 5px;
+}
+.button2{
+    
+    background-color: #272626; 
+      color: white;             
+      padding: 15px 40%;         
+      font-size: 16px;            
+      border: none;               
+      cursor: pointer;            
+      border-radius: 5px;
+      margin-left: 3%;
+      margin-top: 20px;
+      margin-bottom: 20px;
+}
+.button1:hover{
+    font-weight: bold; 
+  color: rgb(233, 9, 9);
+}
+.button2:hover{
+    font-weight: bold; 
+  color: rgb(238, 5, 5);
+  transform: scale(1.05)
+}
+input {
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 1px solid rgb(255, 255, 255); 
+    background: none;
+    padding: 2px 0; 
+    outline: none;
+    font-size: 16px;
+    margin-top: 5px;
+    width: 100%;
+    color: #fff; 
+}
+h2{
+    text-transform: capitalize;
+    text-align: center;
+    text-shadow: 3px 3px 3px black;
+    
+}
+li:hover{
+    color: red;
+    cursor: pointer;            
+
+}
+h1{
+    position: fixed;
+    left: 10px;
+    top: 10px;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    text-shadow: 3px 3px 3px rgb(202, 20, 20);
+    color: rgb(255, 255, 255);
+}
+.input-container {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.input-container label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-container input {
+    width: 100%;
+    padding-left: 30px; 
+    padding-right: 30px; 
+    padding-top: 8px;
+    padding-bottom: 8px;
+    box-sizing: border-box;
+}
+
+.input-container i {
+    position: absolute;
+    right: 10px; 
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #fff;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-container input[type="checkbox"] {
+    width: 20px; 
+    height: 20px; 
+    margin: 2%; 
+}
